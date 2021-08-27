@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="grid.css">
 
   <title>Família Bertipaglia</title>
 </head>
@@ -21,24 +22,52 @@
   <header id="header">
 
     <div class="container">
-      <a id="logo" href="index.html"><img src="assets/logo.svg" alt=""></a>
+      <div id="logo-slogan">
+        <a id="logo" href="index.html"><img src="assets/logo.svg" alt=""></a>
+        <h3>"Família que trabalha unida, permanece unida."</h3>
+      </div>
+
+      <nav id="nav">
+
+        <button aria-label="Abrir menu" id="btn-mobile" aria-controls="menu" aria-haspopup="true"
+          aria-expanded="false">Menu
+          <span id="hamburger"></span>
+        </button>
+
+        <ul id="menu" role="menu">
+          <li><a href="/">Oque fazemos?</a></li>
+          <li><a href="/">Certificado</a></li>
+          <li><a href="/">Contato</a></li>
+        </ul>
+      </nav>
     </div>
-
-    <nav id="nav">
-
-      <button aria-label="Abrir menu" id="btn-mobile" aria-controls="menu" aria-haspopup="true"
-        aria-expanded="false">Menu
-        <span id="hamburger"></span>
-      </button>
-
-      <ul id="menu" role="menu">
-        <li><a href="/">Oque fazemos?</a></li>
-        <li><a href="/">Certificado</a></li>
-        <li><a href="/">Contato</a></li>
-      </ul>
-    </nav>
-
   </header>
+
+  <section class="introducao">
+    <div class="container">
+      <div class="intro">
+        <h1>Olá! seja bem-vindo<br>
+          ao nosso site.</h1>
+        <p>Tenha produtos orgânicos de
+          qualidade em sua casa ou mercado
+          com nossos produtos 100% naturais
+          livres do uso de fertilizantes e
+          agrotóxicos.</p>
+      </div>
+      <div class="logo">
+        <img src="assets/logo.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="quem-somos">
+    <h1>Quem Somos?</h1>
+    <p>Somos uma família da região centro-oeste no município de Dourados - MS,
+      estamos na dedicação da produção orgânica há mais de 5 anos e com certificação há 2 anos.
+      Produzimos desde frutas, verduras e legumes, sempre seguindo a risca as exigências da produção orgânica.
+      Você pode conferir nossa lista disponível entrando em contato no nosso WhatsApp.
+    </p>
+  </section>
 
   <script src="./js/scripts.js"></script>
 
