@@ -17,9 +17,14 @@ a:hover {
 .container {
     width: 940px;
     margin: 0 auto;
-    position: relative;
     display: flex;
     justify-content: space-between;
+}
+
+.containerDois {
+    width: 100%;
+    height: 760px;
+    display: flex;
 }
 
 #logo img {
@@ -179,14 +184,15 @@ a:hover {
 .quem-somos {
   width: 100%;
   background: #00A956;
-  position: absolute;
+  border-bottom: 4px solid #066C44;
 }
 
 .quem-somos h1 {
-  color: white;
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 15px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .quem-somos p {
@@ -200,7 +206,7 @@ a:hover {
 /*===CARDS===*/
 
 .cardss {
-  padding-top: 40px;
+  padding: 40px;
   display: grid;
   place-items: center center;
 }
@@ -208,14 +214,12 @@ a:hover {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 15px;
 
   }
 
 .card {
-  border: 2px solid #00A956;
-  background-color: #E4FFF1;
-  border-radius: 20px;
+  border-radius: 5px;
   
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 }
@@ -223,7 +227,7 @@ a:hover {
 .containerCard {
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .containerCard img {
@@ -238,14 +242,6 @@ img{
   display: block;
 }
 
-.cardss h3 {
-  text-align: center;
-  font-size: 28px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: #00A956;
-}
-
 .containerCard:hover img{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -255,6 +251,70 @@ img{
 
 .oqueFazemos {
   width: 100%;
-  height: 100%;
-  background: #E4FFF1;
+  height: 760px;
+  background: #E4FFF1;  
+}
+
+.comoFazemos {
+  width: 100%;
+  height: 760px;
+  background: #00A956;
+  
+  border-bottom: 4px solid #066C44;
+}
+
+/*=== INFORMES ===*/
+
+.background, .inform {
+  width: 960px;
+  height: auto;
+}
+
+.inform img {
+  width: 204px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+    margin: 30% 0;
+}
+
+.text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #00A956;
+    margin: 5px auto;
+}
+
+.text p {
+    font-size: 25px;
+    margin: 2px auto;
+    color: #00A956;
+}
+
+.textDois {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 8%;
+  margin: 20% 0;
+}
+
+.textDois h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #E4FFF1;  
+  margin: 0 auto 5px auto;
+
+}
+
+.textDois p {
+  font-size: 25px;
+  margin: 2px auto;
+  color: #E4FFF1;
 }
