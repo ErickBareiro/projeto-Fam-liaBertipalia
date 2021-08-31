@@ -315,3 +315,40 @@ img{
   margin: 2px auto;
   color: #E4FFF1;
 }
+
+/*=== UM POUCO MAIS */
+
+.umPoucoMais {  
+  text-align: center;
+
+  background-color: #E4FFF1;
+}
+
+.umPoucoMais h1 {
+  font-size: 46px;
+  color: #00A956;
+  margin: 30px;
+}
+
+.umPoucoMais p {
+  color:#00A956;
+  font-size: 24px;
+  margin: 0;
+}
+
+.umPoucoMais a {
+  color: #066C44;
+  font-weight: bold;
+}
+
+.containerTres {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+  margin: 0 auto; 
+  padding: 15px 0 50px;
+}
