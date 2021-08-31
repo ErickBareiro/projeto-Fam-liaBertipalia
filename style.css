@@ -15,7 +15,7 @@ a:hover {
 }
 
 .container {
-    width: 940px;
+    width: 80vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,6 @@ a:hover {
 
 .containerDois {
     width: 100%;
-    height: 760px;
     display: flex;
 }
 
@@ -251,13 +250,11 @@ img{
 
 .oqueFazemos {
   width: 100%;
-  height: 760px;
   background: #E4FFF1;  
 }
 
 .comoFazemos {
   width: 100%;
-  height: 760px;
   background: #00A956;
   
   border-bottom: 4px solid #066C44;
@@ -280,7 +277,6 @@ img{
     align-items: center;
     text-align: center;
     padding: 0 10%;
-    margin: 30% 0;
 }
 
 .text h1 {
@@ -302,7 +298,6 @@ img{
   align-items: center;
   text-align: center;
   padding: 0 8%;
-  margin: 20% 0;
 }
 
 .textDois h1 {
