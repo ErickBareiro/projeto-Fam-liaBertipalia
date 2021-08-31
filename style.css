@@ -333,7 +333,7 @@ img{
 .umPoucoMais p {
   color:#00A956;
   font-size: 24px;
-  margin: 0;
+  margin: 0 auto 20px;
 }
 
 .umPoucoMais a {
@@ -349,6 +349,7 @@ img{
 }
 
 iframe {
-  margin: 0 auto; 
-  padding: 15px 0 50px;
+  margin: 0 auto 40px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 20px;
+  border-radius: 8px;
 }
