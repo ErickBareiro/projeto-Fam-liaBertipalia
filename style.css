@@ -23,7 +23,6 @@ a:hover {
 
 .containerDois {
     width: 100%;
-    display: flex;
 }
 
 #logo img {
@@ -263,21 +262,25 @@ img{
 /*=== INFORMES ===*/
 
 .background, .inform {
-  width: 960px;
+  width: 100%;
   height: auto;
 }
 
 .inform img {
-  width: 204px;
+  width: 20vh;
 }
+
+  .elements {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 10%;
-    margin-top: 25vh;
 }
 
 .text h1 {
@@ -288,9 +291,15 @@ img{
 }
 
 .text p {
-    font-size: 25px;
+    font-size: 1.4rem;
     margin: 2px auto;
     color: #00A956;
+}
+
+.elements2 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .textDois {
@@ -299,11 +308,10 @@ img{
   align-items: center;
   text-align: center;
   padding: 0 8%;
-  margin-top: 25vh;
 }
 
 .textDois h1 {
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: bold;
   color: #E4FFF1;  
   margin: 0 auto 5px auto;
@@ -311,7 +319,7 @@ img{
 }
 
 .textDois p {
-  font-size: 25px;
+  font-size: 1.4rem;
   margin: 2px auto;
   color: #E4FFF1;
 }
@@ -322,6 +330,8 @@ img{
   text-align: center;
 
   background-color: #E4FFF1;
+  
+  border-bottom: 4px solid #066C44;
 }
 
 .umPoucoMais h1 {
