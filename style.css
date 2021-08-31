@@ -47,10 +47,11 @@ a:hover {
 }
 
 #logo-slogan {
-  display: flex;
-  gap: 10px;
-  text-transform: none;
-  letter-spacing: 0;
+    display: flex;
+    gap: 20px;
+    text-transform: none;
+    letter-spacing: 0;
+    align-items: center;
 }
 
 #menu {
@@ -69,7 +70,7 @@ a:hover {
 }
 
 #nav {
-  margin-top: 13px;
+  margin: auto 0;
 }
 
 @media (max-width: 600px) {
@@ -194,7 +195,7 @@ a:hover {
 }
 
 .quem-somos p {
-  width: 900px;
+  width: 80vw;
   text-align: center;
   color: white;
   margin: 0 auto;
@@ -284,7 +285,7 @@ img{
 }
 
 .text h1 {
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: bold;
     color: #00A956;
     margin: 5px auto;
@@ -342,7 +343,7 @@ img{
 
 .umPoucoMais p {
   color:#00A956;
-  font-size: 24px;
+  font-size: 1.3rem;
   margin: 0 auto 20px;
 }
 
