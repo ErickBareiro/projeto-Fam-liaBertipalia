@@ -159,12 +159,12 @@ a:hover {
   width: 615px;  
   color: #a2460a;
   
-  padding-top: 30px;
+  margin: 11px 0;
 
 }
 
 .intro h1 {
-  font-size: 40px;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -174,8 +174,7 @@ a:hover {
 }
 
 .intro p {
-  width: 325px;
-  font-size: 20px;
+  font-size: 1.6rem;
 }
 
 /* ===QUEM SOMOS=== */
@@ -336,15 +335,17 @@ img{
 }
 
 .umPoucoMais h1 {
-  font-size: 46px;
+  font-size: 3rem;
   color: #00A956;
-  margin: 30px;
+  margin: 0;
+  padding-top: 40px;
 }
 
 .umPoucoMais p {
   color:#00A956;
-  font-size: 1.3rem;
-  margin: 0 auto 20px;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .umPoucoMais a {
@@ -362,5 +363,44 @@ img{
 iframe {
   margin: 0 auto 40px;
   box-shadow: rgb(0 0 0 / 40%) 0px 1px 20px;
+  border-radius: 8px;
+}
+
+/*====CERTIFICAÇÃO===*/
+
+.certificada {
+  background-color: #00A956;
+  border-bottom: 4px solid #066C44;
+}
+
+.content {  
+  color: white;  
+  text-align: center;
+}
+
+.content img {
+  width: 132px;  
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+span p {
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+.textTable {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.table {
+  margin-bottom: 40px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 20px;
+}
+
+.table img {
   border-radius: 8px;
 }
