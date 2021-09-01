@@ -404,3 +404,51 @@ span p {
 .table img {
   border-radius: 8px;
 }
+
+/*===CONFORMIDADE===*/
+
+.conformidade {
+  width: 100%;
+  background: #E4FFF1;
+  
+  border-bottom: 4px solid #066C44;
+}
+
+.tituloConformidade {
+  color: #00A956;
+}
+
+.tituloConformidade p {
+  font-size: 1.4rem;
+}
+
+.tituloConformidade h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 25px 0;
+}
+
+.download {
+  align-items: center;
+  margin: 20px auto 30px;
+  border: 3px solid;
+  border-color: #00A956;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.download img {
+  width: 55px;
+  height: 55px;
+  margin: auto;
+}
+
+.download a {
+  display: flex;
+  gap: 20px;
+}
+
+.download p {
+  color: #00A956;
+  font-size: 1.4rem;
+}
