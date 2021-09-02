@@ -78,7 +78,7 @@ a:hover {
 .introducao {
     width: 100%;
     height: 380px;
-    background: url("assets/webtop.jpg") no-repeat center;
+    background: linear-gradient(to right, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
     background-size: cover;
     padding-top: 80px;
     border-bottom: 4px solid #066C44;
@@ -108,6 +108,7 @@ a:hover {
 
 .intro p {
   font-size: 1.6rem;
+  width: 70%;
 }
 
 /* ===QUEM SOMOS=== */
@@ -516,13 +517,15 @@ span p {
   }
 
   #logo-slogan h3 {
-    font-size: .8em;
+    font-size: 15px;
   }
 
   /*===INTRODUÇÃO===*/
 
   .introducao {
     padding: 40px 0;
+    background: linear-gradient(to top, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
+    background-size: cover;
   }
 
   .introInfo {
@@ -567,7 +570,10 @@ span p {
 }
 
 .intro p {
-  font-size: 1.1rem;
+  width: auto;
+  font-size: 1.22rem;
+  margin-top: 30px;
+  font-weight: 500;
 }
 
 /*===QUEM SOMOS===*/
@@ -575,5 +581,9 @@ span p {
 .quem-somos p {
   font-size: 1.3rem;
 }
+
+/*===OQUE FAZEMOS===*/
+
+
 
 }
