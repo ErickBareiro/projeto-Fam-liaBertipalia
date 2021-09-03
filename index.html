@@ -14,7 +14,7 @@
   <link rel="icon" type="imagem/png" href="assets/logo.svg" />
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="responsive.css">
 
   <title>Família Bertipaglia</title>
 </head>
@@ -22,7 +22,6 @@
 <body>
 
   <header id="header">
-
     <div class="container">
       <div id="logo-slogan">
         <a id="logo" href="index.html"><img src="assets/logo60px.svg" alt="logo"></a>
@@ -36,12 +35,14 @@
         </button>
 
         <ul id="menu" role="menu">
-          <li><a href="/">O que fazemos?</a></li>
-          <li><a href="/">Certificado</a></li>
-          <li><a href="/">Contato</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#oqueFazemos">Oque Fazemos</a></li>
+          <li><a href="#comoFazemos">Como Fazemos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
+
   </header>
 
   <section class="introducao">
@@ -63,7 +64,7 @@
     </div>
   </section>
 
-  <section class="quem-somos">
+  <section class="quem-somos" id="quem-somos">
     <h1>Quem Somos?</h1>
     <p>Somos uma família da região centro-oeste no município de Dourados - MS,
       estamos na dedicação da produção orgânica há mais de 5 anos e com certificação há 2 anos.
@@ -107,7 +108,7 @@
     </div>
   </section>
 
-  <section class="oqueFazemos">
+  <section class="oqueFazemos" id="oqueFazemos">
     <div class="containerDois">
       <div class="elements">
         <div class="background">
@@ -117,15 +118,15 @@
           <div class="text">
             <img src="assets/comida-organica.png" alt="comida orgânica">
             <h1>O que fazemos?</h1>
-            <p>Trabalhamos para que você tenha acesso a<br>
-              uma alimentação de qualidade, produzimos alimentos<br>
+            <p>Trabalhamos para que você tenha acesso a
+              uma alimentação de qualidade, produzimos alimentos
               saudáveis, livre de agrotóxicos.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="comoFazemos">
+  <section class="comoFazemos" id="comoFazemos">
     <div class="containerDois">
       <div class="elements2">
         <div class="inform">
@@ -152,11 +153,10 @@
     <div class="containerTres">
       <h1>Um pouco mais sobre nós e a Produção Orgânica</h1>
       <p>Vídeo da produção orgânica da Família Bertipaglia, você pode conferir mais em nosso canal no
-        <br>Youtube clicando <a href="https://www.youtube.com/channel/UCZh2Ncq-UwY9u2KDaeTFyNw"
-          target="_blank">aqui.</a>
+        <br>Youtube clicando <a href="https://youtu.be/EYPsZttngBE" target="_blank">aqui.</a>
       </p>
 
-      <iframe src="https://www.youtube.com/embed/uzdB3VcDuT0" title="YouTube video player" frameborder="0"
+      <iframe src="https://www.youtube.com/embed/EYPsZttngBE" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
@@ -209,34 +209,38 @@
     </div>
   </section>
 
-  <section class="contato">
+  <section class="contato" id="contato">
     <div class="container">
-      <div class="contatos">
-        <h1>Informações para contato:</h1>
-        <a href="https://wa.me/+55067992032614?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20disponíveis%20:)"
-          target="_blank"><img src="assets/whatsapp-icon.png" alt="Ícone WhatsApp">(67) 9 9203-2614
-        </a>
-        <a href="mailto:familiabertipaglia@gmail.com?" target="_blank"><img src="assets/email-icon.png"
-            alt="Ícone Email">familiabertipaglia@gmail.com
-        </a>
-        <a href="https://goo.gl/maps/GBwekJrjkQ6jgF8u6" target="_blank"><img src="assets/local-icon.png"
-            alt="Ícone Local">Sítio Primavera. BR-163, Km 251,
-          Dourados - MS
-        </a>
+      <div class="contentContato">
+        <div class="contatos">
+          <h1>Informações para contato:</h1>
+          <a href="https://wa.me/+55067992032614?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20disponíveis%20:)"
+            target="_blank"><img src="assets/whatsapp-icon.png" alt="Ícone WhatsApp">
+            <p>(67) 9 9203-2614</p>
+          </a>
+          <a href="mailto:familiabertipaglia@gmail.com?" target="_blank"><img src="assets/email-icon.png"
+              alt="Ícone Email">
+            <p>familiabertipaglia@gmail.com</p>
+          </a>
+          <a href="https://goo.gl/maps/1UAJiMmGgMffsLsE9" target="_blank"><img src="assets/local-icon.png"
+              alt="Ícone Local">
+            <p>Sítio Primavera. BR-163, Km 251, Dourados - MS</p>
+          </a>
 
-        <span>Acesse também as nossas redes sociais:</span>
-        <div class="redes-sociais">
-          <a href="https://www.facebook.com/produtoresdeorganicos" target="_blank"><img src="assets/facebook.icon.png"
-              alt="Ícone Facebook"></a>
-          <a href="https://www.instagram.com/bertipaglia/" target="_blank"><img src="assets/instagram-icon.png"
-              alt="Ícone Instagram"></a>
-          <a href="https://www.youtube.com/channel/UCZh2Ncq-UwY9u2KDaeTFyNw" target="_blank"><img
-              src="assets/youtube-icon.png" alt="Ícone YouTube"></a>
+          <span>Acesse também as nossas redes sociais:</span>
+          <div class="redes-sociais">
+            <a href="https://www.facebook.com/produtoresdeorganicos" target="_blank"><img src="assets/facebook.icon.png"
+                alt="Ícone Facebook"></a>
+            <a href="https://www.instagram.com/bertipaglia/" target="_blank"><img src="assets/instagram-icon.png"
+                alt="Ícone Instagram"></a>
+            <a href="https://www.youtube.com/channel/UCZh2Ncq-UwY9u2KDaeTFyNw" target="_blank"><img
+                src="assets/youtube-icon.png" alt="Ícone YouTube"></a>
+          </div>
+
         </div>
-
-      </div>
-      <div class="logo-contato">
-        <img src="assets/logo.svg" alt="Logo Familia Bertipaglia">
+        <div class="logo-contato">
+          <img src="assets/logo.svg" alt="Logo Familia Bertipaglia">
+        </div>
       </div>
     </div>
   </section>

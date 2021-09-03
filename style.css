@@ -121,7 +121,7 @@ a:hover {
 
 .quem-somos h1 {
     color: white;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
     margin: 0 auto;
     padding: 40px 0 20px;
@@ -225,9 +225,10 @@ img{
 }
 
 .text p {
-    font-size: 1.4rem;
-    margin: 2px auto;
-    color: #00A956;
+  font-size: 1.6rem;
+  margin: 2px auto;
+  color: #00A956;
+  width: 40vw;
 }
 
 .elements2 {
@@ -295,6 +296,8 @@ img{
 }
 
 iframe {
+  width: 60%;
+  height: 57vh;
   margin: 0 auto 40px;
   box-shadow: rgb(0 0 0 / 40%) 0px 1px 20px;
   border-radius: 8px;
@@ -422,14 +425,14 @@ span p {
 
 .contatos h1 {
   font-size: 2.5rem;
-  color: #E4FFF1;
+  color: white;
   margin: 40px 0 30px;
 }
 
 .contatos span {
   font-weight: bolder;
   font-size: 1.5rem;
-  color: #E4FFF1;
+  color: white;
   margin: 15px 0 10px;
 }
 
@@ -437,153 +440,12 @@ span p {
   padding: 40px;
 }
 
-/*===RESPONSIVO===*/
-
-@media (max-width: 768px) {
-  #btn-mobile {
-    display: block;
-  }
-  #menu {
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 85px;
-    right: 0px;
-    background: #00A956;
-    transition: .6s;
-    z-index: 1000;
-    height: 0px;
-    visibility: hidden;
-    overflow-y: scroll;
-}
-  #nav.active #menu {
-    height: calc(100vh - 70px);
-    visibility: visible;
-    overflow-y: auto;
-  }
-
-  #menu a {
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, .05);
-  }
-
-  #btn-mobile {
-    display: flex;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: .5rem;
-    color: white;
-  }
-
-  #hamburger {
-    border-top: 2.5px solid;
-    width: 25px;
-    color: white;
-  }
-
-  #hamburger::after, #hamburger::before {
-    content: '';
-    display: block;
-    width: 25px;
-    height: 2.5px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: .3s;
-    position: relative;
-  }
-
-  #logo img {
-    width: 45px;
-  }
-
-  #nav.active #hamburger {
-    border-top-color: transparent ;
-  }
-
-  #nav.active #hamburger::before {
-    transform: rotate(135deg);
-  }
-
-  #nav.active #hamburger::after {
-    transform: rotate(-135deg);
-    top: -7px
-  }
-
-  #logo-slogan {
-    gap: 10px;
-  }
-
-  #logo-slogan h3 {
-    font-size: 15px;
-  }
-
-  /*===INTRODUÇÃO===*/
-
-  .introducao {
-    padding: 40px 0;
-    background: linear-gradient(to top, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
-    background-size: cover;
-  }
-
-  .introInfo {
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    align-items: center;
-  }
-  .intro {
-    width: 100%;
-  }
-
-  .logo img {
-    width: 115px;
-    height: 115px;
-  }
-
-  iframe {
-    width: 300px;
-  }
-  
-  .cardss {
-    padding: 30px;
-  
-  }
-
-  .contatos h1 {
-    font-size: 2.5rem;
-}
-.contatos a {
-  font-size: 0.6rem;
+.contentContato {
+  margin: auto 0;
+  display: contents;
+  justify-content: space-between;
 }
 
-.cards{
-  grid-template-columns: none;
-}
-
-/*===INTRODUÇÃO===*/
-.intro h1 {
-  font-size: 1.7rem;
-}
-
-.intro p {
-  width: auto;
-  font-size: 1.22rem;
-  margin-top: 30px;
-  font-weight: 500;
-}
-
-/*===QUEM SOMOS===*/
-
-.quem-somos p {
-  font-size: 1.3rem;
-}
-
-/*===OQUE FAZEMOS===*/
-
-
-
+.contatos p {
+  margin: 0;
 }
