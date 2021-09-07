@@ -98,11 +98,14 @@
   }
   .intro {
     width: 100%;
+    margin: 10vh 0;
   }
 
   .logo img {
-    width: 115px;
-    height: 115px;
+    width: 180px;
+    height: 180px;
+
+    margin-top: 13vh;
   }
 
   iframe {
@@ -380,6 +383,8 @@ span p {
   }
   .intro {
     width: 100%;
+
+    margin: 5vh 0;
   }
 
   .logo img {
@@ -408,13 +413,13 @@ span p {
 
 /*===INTRODUÇÃO===*/
 .intro h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 .intro p {
   width: auto;
-  font-size: 1.22rem;
-  margin-top: 30px;
+  font-size: 1.35rem;
+  margin-top: 20px;
   font-weight: 500;
 }
 
@@ -571,7 +576,7 @@ span p {
 
   .introducao {
     width: 100%;
-    height: 380px;
+    height: 100vh;
     background: linear-gradient(to right, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
     background-size: cover;
     padding-top: 80px;
@@ -586,12 +591,18 @@ span p {
   width: 615px;  
   color: #a2460a;
   
-  margin: 11px 0;
+  margin: 21vh 0;
 
 }
 
+.logo img {
+  width: 310px;
+  height: 310px;
+  margin-top: 18vh;
+}
+
 .intro h1 {
-  font-size: 2rem;
+  font-size: 2.7rem;
   text-align: initial;
 }
 
