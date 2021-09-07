@@ -5,6 +5,10 @@ body, ul {
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -44,6 +48,8 @@ a:hover {
   font-weight: bold;
   letter-spacing: 0.1rem;
   border-bottom: 4px solid #066C44;
+  position: sticky;
+  width: 100%;
 }
 
 #logo-slogan {
