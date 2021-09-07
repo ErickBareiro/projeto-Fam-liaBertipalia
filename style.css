@@ -48,7 +48,7 @@ a:hover {
   font-weight: bold;
   letter-spacing: 0.1rem;
   border-bottom: 4px solid #066C44;
-  position: sticky;
+  position: fixed;
   width: 100%;
 }
 
@@ -163,7 +163,6 @@ a:hover {
 }
 
 .containerCard {
-  position: relative;
   overflow: hidden;
   border-radius: 5px;
 }
