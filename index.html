@@ -28,6 +28,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
 
+  <script>document.documentElement.classList.add("js");</script>
+
 
 </head>
 
@@ -61,16 +63,16 @@
     <div class="container">
       <div class="introInfo">
         <div class="intro">
-          <h1>Olá! Seja bem-vindo(a)<br>
+          <h1 data-anime="400" class="fadeInDown">Olá! Seja bem-vindo(a)<br>
             ao nosso site.</h1>
-          <p>Tenha produtos orgânicos de
+          <p data-anime="800" class="fadeInDown">Tenha produtos orgânicos de
             qualidade em sua casa ou mercado
             com nossos produtos 100% naturais
             livres do uso de fertilizantes e
             agrotóxicos.</p>
         </div>
         <div class="logo">
-          <img src="assets/logo.svg" alt="">
+          <img data-anime="400" class="fadeInRight" src="assets/logo.svg" alt="">
         </div>
       </div>
     </div>
@@ -258,7 +260,9 @@
     </div>
   </section>
 
+  <script src="./js/simple-anime.js"></script>
   <script src="./js/scripts.js"></script>
+  
 
 </body>
 

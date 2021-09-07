@@ -32,3 +32,9 @@ close4.addEventListener('click', closeMenu);
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+//Script Simple Anime
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

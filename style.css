@@ -1,5 +1,5 @@
-
-body, ul {
+body,
+ul {
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
@@ -19,14 +19,14 @@ a:hover {
 }
 
 .container {
-    width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .containerDois {
-    width: 100%;
+  width: 100%;
 }
 
 #logo img {
@@ -53,11 +53,11 @@ a:hover {
 }
 
 #logo-slogan {
-    display: flex;
-    gap: 20px;
-    text-transform: none;
-    letter-spacing: 0;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  text-transform: none;
+  letter-spacing: 0;
+  align-items: center;
 }
 
 #menu {
@@ -82,22 +82,23 @@ a:hover {
 /* ---INTRODUÇÃO--- */
 
 .introducao {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(to right, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
-    background-size: cover;
-    padding-top: 80px;
-    border-bottom: 4px solid #066C44;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
+  background-size: cover;
+  padding-top: 80px;
+  border-bottom: 4px solid #066C44;
 }
+
 .introInfo {
   display: contents;
   justify-content: space-between;
 }
 
 .intro {
-  width: 615px;  
+  width: 615px;
   color: #a2460a;
-  
+
   margin: 22vh 0;
 
 }
@@ -128,11 +129,11 @@ a:hover {
 }
 
 .quem-somos h1 {
-    color: white;
-    font-size: 2.25rem;
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0 20px;
+  color: white;
+  font-size: 2.25rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0 20px;
 }
 
 .quem-somos p {
@@ -152,15 +153,15 @@ a:hover {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 
-  }
+}
 
 .card {
   border-radius: 5px;
-  
+
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 }
 
@@ -170,18 +171,18 @@ a:hover {
 }
 
 .containerCard img {
-    width: 100%;
-    height: 100%;
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-img{
+img {
   width: 100%;
   display: block;
 }
 
-.containerCard:hover img{
+.containerCard:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -190,19 +191,20 @@ img{
 
 .oqueFazemos {
   width: 100%;
-  background: #E4FFF1;  
+  background: #E4FFF1;
 }
 
 .comoFazemos {
   width: 100%;
   background: #00A956;
-  
+
   border-bottom: 4px solid #066C44;
 }
 
 /*=== INFORMES ===*/
 
-.background, .inform {
+.background,
+.inform {
   width: 100%;
   height: auto;
 }
@@ -211,25 +213,25 @@ img{
   width: 20vh;
 }
 
-  .elements {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-  }
+.elements {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
 
 .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 8%;
 }
 
 .text h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #00A956;
-    margin: 5px auto;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00A956;
+  margin: 5px auto;
 }
 
 .text p {
@@ -256,7 +258,7 @@ img{
 .textDois h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: #E4FFF1;  
+  color: #E4FFF1;
   margin: 0 auto 5px auto;
 
 }
@@ -269,11 +271,11 @@ img{
 
 /*=== UM POUCO MAIS */
 
-.umPoucoMais {  
+.umPoucoMais {
   text-align: center;
 
   background-color: #E4FFF1;
-  
+
   border-bottom: 4px solid #066C44;
 }
 
@@ -285,7 +287,7 @@ img{
 }
 
 .umPoucoMais p {
-  color:#00A956;
+  color: #00A956;
   font-size: 1.4rem;
   margin: 0 auto;
   padding: 20px;
@@ -297,10 +299,10 @@ img{
 }
 
 .containerTres {
-    width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 iframe {
@@ -318,21 +320,21 @@ iframe {
   border-bottom: 4px solid #066C44;
 }
 
-.content {  
-  color: white;  
+.content {
+  color: white;
   text-align: center;
 }
 
 .content img {
-  width: 132px;  
+  width: 132px;
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 10px;
 }
 
 span p {
-    font-size: 3rem;
-    margin: 0 auto;
+  font-size: 3rem;
+  margin: 0 auto;
 }
 
 .textTable {
@@ -355,7 +357,7 @@ span p {
 .conformidade {
   width: 100%;
   background: #E4FFF1;
-  
+
   border-bottom: 4px solid #066C44;
 }
 
@@ -421,7 +423,7 @@ span p {
   display: inline-flex;
   align-items: center;
   gap: 15px;
-  font-size: 1.4rem;  
+  font-size: 1.4rem;
   margin-bottom: 5px;
 }
 
@@ -456,4 +458,25 @@ span p {
 
 .contatos p {
   margin: 0;
+}
+
+
+/*SIMPLE ANIME*/
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }
