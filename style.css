@@ -84,7 +84,7 @@ a:hover {
 .introducao {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, white 15%, transparent 65%), url("assets/intro.svg") no-repeat center;
+  background: linear-gradient(to right, white 15%, transparent 65%), url("assets/intro.jpg") no-repeat center;
   background-size: cover;
   padding-top: 80px;
   border-bottom: 4px solid #066C44;
