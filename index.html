@@ -27,13 +27,26 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="preload.css">
 
   <script>document.documentElement.classList.add("js");</script>
 
 
 </head>
 
-<body>
+<body onload="loading()">
+  <div class="box-load">
+    <div class="pre">
+      <div class="logo3D">
+        <img src="assets/logo.svg" alt="Logo Famia Bertipaglia">
+      </div>
+      <div class="loading">
+        <img src="assets/loader.gif" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
 
   <header id="header">
     <div class="container">
@@ -265,7 +278,10 @@
     </div>
   </section>
 
-  <script src="./js/simple-anime.js"></script>
+</div>
+  
+<script src="./js/simple-anime.js"></script>
+  <script src="./js/preload.js"></script>
   <script src="./js/scripts.js"></script>
   
 
