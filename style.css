@@ -344,12 +344,18 @@ span p {
 }
 
 .table {
-  margin-bottom: 40px;
   box-shadow: rgb(0 0 0 / 40%) 0px 1px 20px;
 }
 
 .table img {
   border-radius: 8px;
+}
+
+.att p {
+  color: #E4FFF1;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px auto 40px;
 }
 
 /*===CONFORMIDADE===*/
